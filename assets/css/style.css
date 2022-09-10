@@ -74,7 +74,6 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap:10px;
     flex-wrap: wrap;
 }
 .block.active{
@@ -105,29 +104,16 @@ body{
     left: 0;
     bottom: 0;
 }
-.socials__link{
+.socials__link, .hard-skills__elem{
     padding: 10px 15px;
     transition: 0.5s all ease;
     text-decoration: none;
     color: black;
     text-align: center;
+    width: 150px;
 }
 .socials__link:hover{
     color: brown;
-}
-
-#rofl-link.active{
-    animation: 3s opacity infinite;
-    opacity: 1;
-}
-
-@keyframes opacity {
-    0%{
-        opacity: 1;
-    }
-    100%{
-        opacity: 0;
-    }
 }
 
 .btn-examples{
@@ -137,4 +123,10 @@ body{
 .block-examples{
     bottom: 0;
     right: 0;
+}
+
+.icon{
+    width: 80px;
+    height: 80px;
+    padding-bottom: 10px;
 }
