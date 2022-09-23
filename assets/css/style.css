@@ -59,8 +59,8 @@ body{
 }
 
 .btn-soft-skills{
-    top: 50px;
-    left: 50px;
+    top: 30px;
+    left: 30px;
 }
 
 
@@ -88,8 +88,8 @@ body{
 }
 
 .btn-stack{
-    top: 50px;
-    right: 50px;    
+    top: 30px;
+    right: 30px;    
 }
 
 .block-stack{
@@ -98,8 +98,8 @@ body{
 }
 
 .btn-socials{
-    left: 50px;
-    bottom: 50px;
+    left: 30px;
+    bottom: 30px;
 }
 .block-socials{
     left: 0;
@@ -118,8 +118,8 @@ body{
 }
 
 .btn-expiriens{
-    bottom: 50px;
-    right: 50px;
+    bottom: 30px;
+    right: 30px;
 }
 .block-expiriens{
     bottom: 0;
