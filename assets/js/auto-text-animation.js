@@ -4,7 +4,7 @@ function textAnimvation(){
     texts.forEach(text =>{
         let str = text.textContent
         if(!str){
-            console.log('пожалуйста используйте данный скрипт только с текстовыми тегами')
+            console.log('please use text animation script only with text tags')
             return
         }
         let result = ''
